@@ -46,11 +46,16 @@ video {
 body {
   background-color: #fefbf7;
   font-family: "Graphik";
+  color: #131313;
+}
+
+img {
+  width: 100%;
 }
 
 h1 {
   font-family: "Climate Crisis";
-  font-size: 30px;
+  font-size: 40px;
 }
 
 h2 {
@@ -61,6 +66,8 @@ p {
   font-size: 13px;
 }
 
-.boutton {
-  padding: 10px;
+.button {
+  padding: 5px 4px;
+  border: 50%;
+  border-radius: 50%;
 }
