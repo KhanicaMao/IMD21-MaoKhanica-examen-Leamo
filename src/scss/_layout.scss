@@ -1,0 +1,19 @@
+.nav {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .nav {
+    display: block;
+  }
+}
+
+.menu-mobile {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .menu-mobile {
+    display: none;
+  }
+}

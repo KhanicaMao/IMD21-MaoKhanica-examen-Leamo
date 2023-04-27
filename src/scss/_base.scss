@@ -43,14 +43,24 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
-.row + .row {
-  margin-top: 16px;
+body {
+  background-color: #fefbf7;
+  font-family: "Graphik";
 }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
+h1 {
+  font-family: "Climate Crisis";
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.boutton {
+  padding: 10px;
 }
