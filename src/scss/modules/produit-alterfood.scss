@@ -1,16 +1,40 @@
 .section-alterfood {
   background-color: #f9dfc9;
   color: #d95130;
+  margin-bottom: 30px;
+}
+
+#tensai-sous-titre {
+  position: relative;
+  left: 65px;
+}
+
+#tensai-titre {
+  position: relative;
+  left: 50px;
+}
+
+#image-alterfood {
+  position: relative;
+  right: 10px;
+  width: 458px;
+  margin-bottom: 45px;
 }
 
 .section-alterfood p {
+  position: relative;
+  left: 15px;
   color: #131313;
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 41px;
 }
 
 #e-shop-button {
   background-color: #d95130;
   color: whitesmoke;
   font-weight: bold;
+  margin-bottom: 60px;
   a {
     text-decoration: none;
   }

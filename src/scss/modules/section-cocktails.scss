@@ -1,13 +1,38 @@
+#cocktails-titre {
+  position: relative;
+  left: 25px;
+  margin-top: 42px;
+  margin-bottom: 26px;
+}
+
+#image-cocktails {
+  position: relative;
+  right: 10px;
+  width: 459px;
+}
+
 .section-cocktails {
   background-color: #f7a36c;
   color: whitesmoke;
+}
+
+#cocktails-texte {
+  text-align: center;
+  margin-bottom: 26px;
 }
 
 #cocktails-button {
   background-color: whitesmoke;
   color: #da6126;
   font-weight: bold;
+  margin-bottom: 53px;
   a {
     text-decoration: none;
   }
+}
+
+#banner-image {
+  position: relative;
+  right: 12px;
+  width: 461px;
 }

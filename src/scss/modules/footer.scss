@@ -1,4 +1,31 @@
 #mention-footer {
   background-color: #131213;
   color: whitesmoke;
+  margin-top: 41px;
+  padding: 9px 20px;
+  p {
+    font-size: 9px;
+  }
+}
+
+#logo-leamo {
+  position: relative;
+  left: 30px;
+}
+
+#logo-alterfood {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  width: 210px;
+}
+
+#lien-instagram {
+  position: relative;
+  left: 15px;
+  margin-top: 20px;
+}
+
+#mention-legal {
+  text-decoration: underline;
 }

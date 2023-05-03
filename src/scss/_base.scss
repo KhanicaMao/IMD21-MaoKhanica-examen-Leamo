@@ -55,19 +55,21 @@ img {
 
 h1 {
   font-family: "Climate Crisis";
-  font-size: 40px;
+  font-size: 35px;
 }
 
 h2 {
   font-size: 12px;
+  font-weight: lighter;
 }
 
 p {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .button {
   padding: 5px 4px;
-  border: 50%;
-  border-radius: 50%;
+  border-radius: 20%;
+  text-align: center;
+  font-size: 16px;
 }
