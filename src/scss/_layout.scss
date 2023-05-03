@@ -17,3 +17,43 @@
     display: none;
   }
 }
+
+.leamo-mobile {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .leamo-mobile {
+    display: none;
+  }
+}
+
+.leamo-laptop {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .leamo-laptop {
+    display: block;
+  }
+}
+
+.engagement-section-laptop {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .engagement-section-laptop {
+    display: block;
+  }
+}
+
+.engagement-section-mobile {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .engagement-section-mobile {
+    display: none;
+  }
+}
