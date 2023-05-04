@@ -1,27 +1,27 @@
-.section-alterfood {
+.section-alterfood-mobile {
   background-color: #f9dfc9;
   color: #d95130;
   margin-bottom: 30px;
 }
 
 #tensai-sous-titre {
-  position: relative;
-  left: 65px;
+  display: flex;
+  justify-content: center;
 }
 
 #tensai-titre {
-  position: relative;
-  left: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 #image-alterfood {
   position: relative;
   right: 10px;
-  width: 458px;
+  width: 460px;
   margin-bottom: 45px;
 }
 
-.section-alterfood p {
+.section-alterfood-mobile p {
   position: relative;
   left: 15px;
   color: #131313;
@@ -38,4 +38,10 @@
   a {
     text-decoration: none;
   }
+}
+
+.section-alterfood-laptop {
+  background-color: #f9dfc9;
+  color: #d95130;
+  margin-bottom: 30px;
 }

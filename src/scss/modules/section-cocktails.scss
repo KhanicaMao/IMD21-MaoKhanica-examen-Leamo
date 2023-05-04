@@ -1,6 +1,6 @@
 #cocktails-titre {
-  position: relative;
-  left: 25px;
+  display: flex;
+  justify-content: center;
   margin-top: 42px;
   margin-bottom: 26px;
 }
@@ -8,10 +8,10 @@
 #image-cocktails {
   position: relative;
   right: 10px;
-  width: 459px;
+  width: 500px;
 }
 
-.section-cocktails {
+.section-cocktails-mobile {
   background-color: #f7a36c;
   color: whitesmoke;
 }
@@ -32,7 +32,33 @@
 }
 
 #banner-image {
-  position: relative;
-  right: 12px;
-  width: 461px;
+  display: flex;
+  justify-content: center;
+  width: 549px;
+}
+
+.section-cocktails-laptop {
+  background-color: #f7a36c;
+  color: whitesmoke;
+}
+
+#cocktails-titre-laptop {
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+  margin-bottom: 26px;
+}
+
+#cocktails-texte-laptop {
+  margin-bottom: 26px;
+}
+
+#cocktails-button-laptop {
+  background-color: whitesmoke;
+  color: #da6126;
+  font-weight: bold;
+  margin-bottom: 53px;
+  a {
+    text-decoration: none;
+  }
 }

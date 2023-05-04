@@ -57,3 +57,43 @@
     display: none;
   }
 }
+
+.section-cocktails-laptop {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .section-cocktails-laptop {
+    display: block;
+  }
+}
+
+.section-cocktails-mobile {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .section-cocktails-mobile {
+    display: none;
+  }
+}
+
+.section-alterfood-mobile {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .section-alterfood-mobile {
+    display: none;
+  }
+}
+
+.section-alterfood-laptop {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .section-alterfood-laptop {
+    display: block;
+  }
+}
