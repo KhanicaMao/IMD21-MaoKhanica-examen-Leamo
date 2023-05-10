@@ -97,3 +97,63 @@
     display: block;
   }
 }
+
+.selection-mobile {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .selection-mobile {
+    display: none;
+  }
+}
+
+.selection-laptop {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .selection-laptop {
+    display: block;
+  }
+}
+
+.moodrefresh-mobile {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .moodrefresh-mobile {
+    display: none;
+  }
+}
+
+.moodrefresh-laptop {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .moodrefresh-laptop {
+    display: block;
+  }
+}
+
+.ingredient-mobile {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .ingredient-mobile {
+    display: none;
+  }
+}
+
+.ingredient-laptop {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .ingredient-laptop {
+    display: block;
+  }
+}
