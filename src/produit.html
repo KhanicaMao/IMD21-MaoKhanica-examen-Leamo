@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <div class="container">
+    <div class="row">
       <div class="nav">
         <div class="row">
           <div class="col-12" id="nav-section">
@@ -37,9 +37,8 @@
                 <a id="close" href="#" class="close-menu">x</a>
                 <ul>
                   <li><a href="#home">Home</a></li>
-                  <li><a href="#specialities">Specialities</a></li>
-                  <li><a href="#menu">Menu</a></li>
-                  <li><a href="#reservation">Reservation</a></li>
+                  <li><a href="#moodrefresh">Moodrefresh</a></li>
+                  <li><a href="#ingredient">Ingrédient</a></li>
                   <li><a href="#contact">Contact</a></li>
                 </ul>
               </div>
@@ -64,7 +63,7 @@
     <div class="selection-mobile">
       <div class="row">
         <div class="col-8 offset-2"><h1>Ginger beer</h1></div>
-        <div class="col-8 offset-2">
+        <div class="col-8 offset-2" id="texte-ginger-beer">
           <p>
             Découvrez notre Leamo Ginger beer, notre boisson relevée à forte
             concentration en gingembre, et bien sûr accompagnée d’un trait de
@@ -76,23 +75,35 @@
         </div>
         <div class="col-8 offset-2">
           <div class="row">
-            <div class="col-3 offset-1">25cl</div>
-            <div class="col-3 offset-1">25cl</div>
-            <div class="col-3 offset-1">25cl</div>
+            <div class="col-3 offset-1">
+              <div class="button" id="button-mesure">
+                <a href="">25cl</a>
+              </div>
+            </div>
+            <div class="col-3 offset-1">
+              <div class="button" id="button-mesure">
+                <a href="">33cl</a>
+              </div>
+            </div>
+            <div class="col-3 offset-1">
+              <div class="button" id="button-mesure">
+                <a href="">75cl</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-12">
+        <div class="col-12" id="selection-parfum-mobile">
           <div class="row">
-            <div class="col-3">
+            <div class="col-3" id="parfum-mobile">
               <img src="/src/scss/images/parfum-cola.webp" alt="cola" />
             </div>
-            <div class="col-3">
+            <div class="col-3" id="parfum-mobile">
               <img src="/src/scss/images/parfum-citron.webp" alt="citron" />
             </div>
-            <div class="col-3">
+            <div class="col-3" id="parfum-mobile">
               <img src="/src/scss/images/parfum-thé-noir.webp" alt="thé-noir" />
             </div>
-            <div class="col-3">
+            <div class="col-3" id="parfum-mobile">
               <img src="/src/scss/images/parfum-limonade.webp" alt="limonade" />
             </div>
             <div class="col-3">
@@ -122,47 +133,52 @@
               />
             </div>
             <div class="col-3 offset-1">
-              <div class="button">
+              <div class="button" id="button-mesure">
                 <a href="">25cl</a>
               </div>
             </div>
             <div class="col-3">
-              <div class="button">
+              <div class="button" id="button-mesure">
                 <a href="">33cl</a>
               </div>
             </div>
             <div class="col-3">
-              <div class="button">
+              <div class="button" id="button-mesure">
                 <a href="">75cl</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-6" id="ginger-beer-laptop">
           <div class="row">
-            <div class="col-8 offset-2"><h1>Ginger beer</h1></div>
+            <div class="col-9 offset-2">
+              <h1>Ginger beer</h1>
+            </div>
             <div class="col-8 offset-2">
               <p>
                 Découvrez notre Leamo Ginger beer, notre boisson relevée à forte
                 concentration en gingembre, et bien sûr accompagnée d’un trait
-                de citron bio, agréable et rafraîchissant ! Moins sucrés que la
-                moyenne, mais renforcés en goût avec des notes aromatiques bio.
-                Sans oublié à consommer sans alcool !
+                de citron bio, agréable et rafraîchissant !
+                <br />
+                Moins sucrés que la moyenne, mais renforcés en goût avec des
+                notes aromatiques bio. Sans oublié à consommer sans alcool !
               </p>
             </div>
-            <div class="col-3 offset-2">
+            <div class="col-3 offset-2" id="ginger-button-ingredient">
               <div class="button">
-                <a href="">Ingrédient</a>
+                <a href="https://www.alterfood.fr/produit/limonade/leamo/"
+                  >Ingrédient</a
+                >
               </div>
             </div>
-            <div class="col-3">
-              <div class="button">
-                <a href="">E-shop</a>
+            <div class="col-3 offset-1">
+              <div class="button" id="ginger-button-e-shop">
+                <a href="https://altershop.fr/collections/leamo">E-shop</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12">
+        <div class="col-12" id="selection-parfum-laptop">
           <div class="row">
             <div class="col-2">
               <img src="/src/scss/images/parfum-cola.webp" alt="cola" />
@@ -197,9 +213,13 @@
         <div class="col-12">
           <img src="/src/scss/images/image-moodfresh.webp" alt="image-intro" />
         </div>
-        <div class="col-6 offset-3"><h2>Cocktail du jour</h2></div>
-        <div class="col-10 offset-1"><h1>Moodrefresh</h1></div>
-        <div class="col-10 offset-1">
+        <div class="col-6 offset-3" id="moodrefresh-sous-titre">
+          <h2>Cocktail du jour</h2>
+        </div>
+        <div class="col-10 offset-1" id="titre-moodrefresh">
+          <h1>Moodrefresh</h1>
+        </div>
+        <div class="col-10 offset-1" id="texte-moodrefresh-mobile">
           <p>
             Tout d’abord, frapper le soda maté bio, le jus de citron et le sucre
             avec des glaçons, verser dans le verre tout le contenu du shaker et
@@ -213,7 +233,7 @@
           </p>
         </div>
         <div class="col-4 offset-4 col-lg-2 offset-lg-10">
-          <div class="button">
+          <div class="button" id="moodrefresh-button">
             <a href="">Tout nos cocktails</a>
           </div>
         </div>
@@ -239,7 +259,7 @@
         </div>
         <div class="col-6">
           <div class="row">
-            <div class="col-4 offset-2"><h2>Cocktail du jour</h2></div>
+            <div class="col-5 offset-2"><h2>Cocktail du jour</h2></div>
             <div class="col-8 offset-2"><h1>Moodrefresh</h1></div>
             <div class="col-9 offset-2">
               <p>
@@ -259,20 +279,17 @@
                 verre.
               </p>
             </div>
-            <div class="col-3 offset-2">
+            <div class="col-3 offset-2" id="moodrefresh-button-laptop">
               <div class="button">
                 <a href="">Tous nos cocktails</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12">
-          <img
-            src="/src/scss/images/banner-produit.webp"
-            alt="banner-produit"
-          />
-        </div>
       </div>
+    </div>
+    <div class="col-12" id="moodrefresh-banner">
+      <img src="/src/scss/images/banner-produit.webp" alt="banner-produit" />
     </div>
     <div class="ingredient-mobile">
       <div class="row">
@@ -297,11 +314,11 @@
             au réfrigérateur et à consommer dans les 3 jours.
           </p>
         </div>
-        <div class="col-11">
+        <div class="col-11" id="ingredient-symbole">
           <img src="/src/scss/images/engagement-symbole.webp" alt="symboles" />
         </div>
         <div class="col-4 col-lg-2 offset-lg-10">
-          <div class="button">
+          <div class="button" id="ingredient-button-mobile">
             <a href="">En savoir plus</a>
           </div>
         </div>
@@ -312,8 +329,8 @@
       <div class="row">
         <div class="col-6">
           <div class="row">
-            <div class="col-8"><h1>Ingrédients</h1></div>
-            <div class="col-9">
+            <div class="col-8 offset-1"><h1>Ingrédients</h1></div>
+            <div class="col-9 offset-1">
               <p>
                 Eau, sucre*, concentré de jus de citron*, dioxyde de carbone,
                 extrait d'armoise*, extrait de quinquina naturel, arôme naturel
@@ -326,20 +343,20 @@
                 réfrigérateur et à consommer dans les 3 jours.
               </p>
             </div>
-            <div class="col-9">
+            <div class="col-9 offset-1" id="ingredient-symbole-laptop">
               <img
                 src="/src/scss/images/engagement-symbole.webp"
                 alt="symboles"
               />
             </div>
-            <div class="col-4">
-              <div class="button">
+            <div class="col-4 offset-1">
+              <div class="button" id="ingredient-button">
                 <a href="">En savoir plus</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-6" id="image-ingrédient-laptop">
           <div class="row">
             <img
               src="/src/scss/images/image-ingrédient.webp"
@@ -350,34 +367,32 @@
         <div class="col-12"><hr /></div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-4 offset-1 col-lg-2" id="logo-leamo">
-          <img src="/src/scss/images/Leamo-Logo.svg" alt="leamo-logo" />
-        </div>
-        <div class="col-4 col-lg-2" id="logo-alterfood">
-          <img
-            src="/src/scss/images/logo-alterfood-black.svg"
-            alt="alterfood-logo"
-          />
-        </div>
-        <div class="col-4 offset-5 col-lg-2" id="lien-instagram">
-          <a href=""><p>Instagram</p></a>
-        </div>
-        <div class="col-4 offset-5 col-lg-2">
-          <a href=""><p>point de vente</p></a>
-        </div>
-        <div class="col-6 offset-4 col-lg-2">
-          <a href=""><p>4 rue de Sèze 75009 Paris</p></a>
-        </div>
-        <div class="col-12" id="mention-footer">
-          <div class="row">
-            <div class="col-6 offset-1 col-lg-3 offset-lg-1">
-              <p>® 2023 LEAMO is a brand from altershop</p>
-            </div>
-            <div class="col-4 offset-1 col-lg-2" id="mention-legal">
-              <p>mentions légales</p>
-            </div>
+    <div class="row">
+      <div class="col-4 offset-1 col-lg-2" id="logo-leamo">
+        <img src="/src/scss/images/Leamo-Logo.svg" alt="leamo-logo" />
+      </div>
+      <div class="col-4 col-lg-2" id="logo-alterfood">
+        <img
+          src="/src/scss/images/logo-alterfood-black.svg"
+          alt="alterfood-logo"
+        />
+      </div>
+      <div class="col-4 offset-5 col-lg-2" id="lien-instagram">
+        <a href=""><p>Instagram</p></a>
+      </div>
+      <div class="col-4 offset-5 col-lg-2">
+        <a href=""><p>point de vente</p></a>
+      </div>
+      <div class="col-6 offset-4 col-lg-2">
+        <a href=""><p>4 rue de Sèze 75009 Paris</p></a>
+      </div>
+      <div class="col-12" id="mention-footer">
+        <div class="row">
+          <div class="col-6 offset-1 col-lg-3 offset-lg-1">
+            <p>® 2023 LEAMO is a brand from altershop</p>
+          </div>
+          <div class="col-4 offset-1 col-lg-2" id="mention-legal">
+            <p>mentions légales</p>
           </div>
         </div>
       </div>
