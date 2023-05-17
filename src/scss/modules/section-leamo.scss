@@ -46,8 +46,22 @@
 }
 
 #image-leamo-laptop {
+  z-index: 2;
+  position: relative;
+  bottom: 90px;
   width: 95%;
-  margin-top: 43px;
+}
+
+#décoration-jaune-2 {
+  z-index: 3;
+  width: 200px;
+}
+
+#décoration-jaune {
+  z-index: 3;
+  width: 150px;
+  position: relative;
+  bottom: 130px;
 }
 
 #texte-leamo-laptop {

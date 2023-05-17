@@ -36,13 +36,13 @@
 }
 
 .section-cocktails-laptop {
-  background-color: #f7a36c;
+  background-image: url(/src/scss/images/background-cocktails.webp);
+  background-size: 90%;
+  padding-top: 50px;
   color: whitesmoke;
 }
 
 #cocktails-titre-laptop {
-  display: flex;
-  justify-content: center;
   margin-top: 102px;
   margin-bottom: 26px;
 }

@@ -50,11 +50,18 @@
   width: 100%;
 }
 
+#tensai-sous-titre-laptop {
+  display: flex;
+  justify-content: end;
+  color: #d95130;
+  margin-top: 150px;
+  text-align: right;
+}
+
 #tensai-titre-laptop {
   display: flex;
   justify-content: end;
   color: #d95130;
-  margin-top: 90px;
   text-align: right;
 }
 
@@ -69,6 +76,35 @@
 #e-shop-button-laptop {
   background-color: #d95130;
   color: whitesmoke;
+  font-weight: bold;
+  margin-bottom: 60px;
+  a {
+    text-decoration: none;
+  }
+}
+
+#chilled-version {
+  background-color: #ffe6de;
+}
+
+#chilled-sous-titre-laptop {
+  display: flex;
+  justify-content: end;
+  color: #697ca8;
+  margin-top: 150px;
+  text-align: right;
+}
+
+#chilled-titre-laptop {
+  display: flex;
+  justify-content: end;
+  color: #697ca8;
+  text-align: right;
+}
+
+#chilled-e-shop-button {
+  background-color: whitesmoke;
+  color: #697ca8;
   font-weight: bold;
   margin-bottom: 60px;
   a {
