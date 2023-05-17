@@ -9,9 +9,12 @@
     color: #e3521a;
   }
 
-  #moodrefresh-button {
+  #moodrefresh-button-mobile {
+    position: relative;
+    left: 25px;
     background-color: #d95130;
     color: whitesmoke;
+    border-radius: 15px;
     font-weight: bold;
     margin-bottom: 60px;
     a {
@@ -69,6 +72,7 @@
     margin-top: 45px;
     background-color: #d95130;
     color: whitesmoke;
+    border-radius: 15px;
     font-weight: bold;
     a {
       text-decoration: none;
