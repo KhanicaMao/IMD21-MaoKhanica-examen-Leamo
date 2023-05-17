@@ -1,31 +1,69 @@
-#mention-footer {
-  background-color: #131213;
-  color: whitesmoke;
-  margin-top: 41px;
-  padding: 9px 20px;
-  p {
-    font-size: 9px;
+.footer-mobile {
+  #mention-footer {
+    background-color: #131213;
+    color: whitesmoke;
+    margin-top: 41px;
+    padding: 9px 20px;
+    p {
+      font-size: 9px;
+    }
+  }
+
+  #logo-leamo {
+    width: 32%;
+    position: relative;
+    left: 40px;
+  }
+
+  #logo-alterfood {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 210px;
+  }
+
+  #lien-instagram {
+    position: relative;
+    left: 15px;
+    margin-top: 20px;
+  }
+
+  #mention-legal {
+    text-decoration: underline;
   }
 }
 
-#logo-leamo {
-  position: relative;
-  left: 30px;
-}
+.footer-laptop {
+  #mention-footer {
+    background-color: #131213;
+    color: whitesmoke;
+    margin-top: 41px;
+    padding: 9px 20px;
+    p {
+      font-size: 9px;
+    }
+  }
 
-#logo-alterfood {
-  position: relative;
-  top: 10px;
-  left: 20px;
-  width: 210px;
-}
+  #logo-leamo-laptop {
+    width: 14%;
+    position: relative;
+    left: 30px;
+  }
 
-#lien-instagram {
-  position: relative;
-  left: 15px;
-  margin-top: 20px;
-}
+  #logo-alterfood {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 210px;
+  }
 
-#mention-legal {
-  text-decoration: underline;
+  #lien-instagram {
+    position: relative;
+    left: 15px;
+    margin-top: 20px;
+  }
+
+  #mention-legal {
+    text-decoration: underline;
+  }
 }

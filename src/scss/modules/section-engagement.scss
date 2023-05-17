@@ -28,7 +28,6 @@
   display: flex;
   justify-content: end;
   color: #f5921d;
-  margin-top: 12px;
   margin-bottom: 27px;
   text-align: right;
 }
@@ -43,10 +42,6 @@
 }
 
 #savoir-plus-button-laptop {
-  position: relative;
-  left: 270px;
-  display: flex;
-  justify-content: end;
   background-color: #f5921d;
   color: whitesmoke;
   font-weight: bold;
@@ -56,5 +51,5 @@
 }
 
 #image-engagement-laptop {
-  width: 700px;
+  width: 100%;
 }

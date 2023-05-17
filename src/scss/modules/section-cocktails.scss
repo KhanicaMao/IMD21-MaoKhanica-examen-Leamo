@@ -6,9 +6,7 @@
 }
 
 #image-cocktails {
-  position: relative;
-  right: 10px;
-  width: 500px;
+  width: 100%;
 }
 
 .section-cocktails-mobile {
@@ -34,7 +32,7 @@
 #banner-image {
   display: flex;
   justify-content: center;
-  width: 549px;
+  width: 100%;
 }
 
 .section-cocktails-laptop {
@@ -45,11 +43,14 @@
 #cocktails-titre-laptop {
   display: flex;
   justify-content: center;
-  margin-top: 42px;
+  margin-top: 102px;
   margin-bottom: 26px;
 }
 
 #cocktails-texte-laptop {
+  p {
+    font-size: 18px;
+  }
   margin-bottom: 26px;
 }
 

@@ -15,9 +15,7 @@
 }
 
 #image-alterfood {
-  position: relative;
-  right: 10px;
-  width: 460px;
+  width: 100%;
   margin-bottom: 45px;
 }
 
@@ -49,18 +47,19 @@
 #image-alterfood-laptop {
   position: relative;
   right: 10px;
-  width: 530px;
+  width: 100%;
 }
 
 #tensai-titre-laptop {
   display: flex;
   justify-content: end;
   color: #d95130;
-  margin-top: 80px;
+  margin-top: 90px;
   text-align: right;
 }
 
 .section-alterfood-laptop p {
+  font-size: 18px;
   text-align: end;
   color: #131313;
   margin-top: 26px;

@@ -1,5 +1,6 @@
 #leamo-titre {
   h1 {
+    z-index: 1;
     font-size: 50px;
   }
   margin: 11px 0 0 14px;
@@ -13,10 +14,11 @@
 }
 
 #image-leamo {
+  z-index: 2;
   width: 450px;
   position: relative;
   bottom: 40px;
-  right: 130px;
+  right: 120px;
 }
 
 #texte-leamo {
@@ -37,15 +39,15 @@
   h1 {
     font-size: 50px;
   }
+  position: relative;
+  left: 45px;
   color: #f496a9;
   margin: 180px 0 40px 0px;
 }
 
 #image-leamo-laptop {
-  width: 500px;
+  width: 95%;
   margin-top: 43px;
-  position: relative;
-  right: 25px;
 }
 
 #texte-leamo-laptop {
@@ -59,7 +61,7 @@
   background-color: #f496a9;
   color: whitesmoke;
   font-weight: bold;
-  margin-bottom: 170px;
+  margin-bottom: 140px;
   a {
     font-size: 18px;
     text-decoration: none;

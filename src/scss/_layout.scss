@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media (min-width: 850px) {
+@media (min-width: 800px) {
   .nav {
     display: block;
   }
@@ -154,6 +154,26 @@
 
 @media (min-width: 800px) {
   .ingredient-laptop {
+    display: block;
+  }
+}
+
+.footer-mobile {
+  display: block;
+}
+
+@media (min-width: 800px) {
+  .footer-mobile {
+    display: none;
+  }
+}
+
+.footer-laptop {
+  display: none;
+}
+
+@media (min-width: 800px) {
+  .footer-laptop {
     display: block;
   }
 }
