@@ -52,18 +52,23 @@
 
   #logo-alterfood {
     position: relative;
-    top: 10px;
+    top: 15px;
     left: 20px;
-    width: 210px;
+    width: 200px;
   }
 
   #lien-instagram {
     position: relative;
     left: 15px;
-    margin-top: 20px;
   }
 
   #mention-legal {
     text-decoration: underline;
+  }
+
+  #lien-rue {
+    a {
+      text-decoration: none;
+    }
   }
 }

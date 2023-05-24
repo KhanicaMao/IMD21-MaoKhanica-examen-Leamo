@@ -34,10 +34,27 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  img {
+    animation-name: slidein;
+    animation-duration: 3s;
+    animation-iteration-count: unset;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
 }
 
 .section-cocktails-laptop {
-  background-image: url(/src/scss/images/background-cocktails.webp);
+  background-image: url(/src/img/background-cocktails.webp);
   background-size: 90%;
   padding-top: 50px;
   color: whitesmoke;

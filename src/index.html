@@ -11,32 +11,33 @@
       <div class="row">
         <div class="col-12" id="nav-section">
           <div class="row">
-            <div class="col-2"><a href="">Cocktails</a></div>
-            <div class="col-2"><a href="">Produit</a></div>
-            <div class="col-2"><a href="">Valeurs</a></div>
-            <div class="col-2">
-              <a href=""
-                ><img src="/src/scss/images/Leamo-Logo.svg" alt="logo-leamo"
+            <div class="col-1 offset-1"><a href="#cocktails">Cocktails</a></div>
+            <div class="col-1"><a href="#produit">Produit</a></div>
+            <div class="col-2"><a href="#engagement">Valeurs</a></div>
+            <div class="col-2" id="logo-nav">
+              <a href="#home"
+                ><img src="img/Leamo-Logo.svg" alt="logo-leamo"
               /></a>
             </div>
-            <div class="col-2 offset-1">
-              <a href="">Point de vente</a>
+            <div class="col-2 offset-1" id="point-vente-nav">
+              <a href="https://www.alterfood.fr/produit/limonade/leamo/"
+                >Point de vente</a
+              >
             </div>
-            <div class="col-1"><a href="">E-shop</a></div>
+            <div class="col-1">
+              <a href="https://altershop.fr/collections/leamo">E-shop</a>
+            </div>
           </div>
         </div>
         <div class="col-lg-12">
-          <img
-            src="/src/scss/images/image-bottle-leamo.webp"
-            alt="image-bottle-leamo"
-          />
+          <img src="img/image-bottle-leamo.webp" alt="image-bottle-leamo" />
         </div>
       </div>
     </div>
     <div class="menu-mobile">
       <div class="row">
         <div class="col-4 offset-1" id="leamo-logo">
-          <img src="/src/scss/images/Leamo-Logo.svg" alt="leamo-logo" />
+          <img src="img/Leamo-Logo.svg" alt="leamo-logo" />
         </div>
         <div class="menu-button">
           <div class="row">
@@ -44,12 +45,17 @@
               <div id="mySidenav" class="sidenav">
                 <a id="close" href="#" class="close-menu">x</a>
                 <ul>
-                  <li><a href="#home">Home</a></li>
-                  <li><a href="#leamo">Leamo</a></li>
+                  <li><a href="#produit">Leamo</a></li>
                   <li><a href="#engagement">Engagement</a></li>
                   <li><a href="#cocktails">Cocktails</a></li>
-                  <li><a href="#e-shop">E-shop</a></li>
-                  <li><a href="#produit">Produit</a></li>
+                  <li>
+                    <a href="https://altershop.fr/collections/leamo">E-shop</a>
+                  </li>
+                  <li>
+                    <a href="https://www.alterfood.fr/produit/limonade/leamo/"
+                      >Produit</a
+                    >
+                  </li>
                   <li><a href="#contact">Contact</a></li>
                 </ul>
               </div>
@@ -64,7 +70,7 @@
           </div>
         </div>
         <div class="col-12">
-          <img src="/src/scss/images/image.webp" alt="image-intro" />
+          <img src="img/image.webp" alt="image-intro" />
         </div>
         <div class="col-12"><hr /></div>
       </div>
@@ -98,22 +104,16 @@
         <div class="col-6">
           <div class="row">
             <div class="col-2" id="décoration-jaune-2">
-              <img
-                src="/src/scss/images/décoration-jaune-2.webp"
-                alt="décoration"
-              />
+              <img src="img/decoration-jaune-2.webp" alt="decoration" />
             </div>
             <div class="col-6 offset-1" id="image-leamo-laptop">
               <img
-                src="/src/scss/images/image-sectionleamo.webp"
+                src="img/image-sectionleamo.webp"
                 alt="image-section-leamo"
               />
             </div>
             <div class="col-3 offset-9" id="décoration-jaune">
-              <img
-                src="/src/scss/images/décoration_jaune.webp"
-                alt="décoration"
-              />
+              <img src="img/decoration_jaune.webp" alt="decoration" />
             </div>
           </div>
         </div>
@@ -125,7 +125,7 @@
           <div class="col-3" id="leamo-titre"><h1>Leamo</h1></div>
           <div class="col-2 offset-4" id="image-leamo">
             <img
-              src="/src/scss/images/image-selectionleamo-mobile.webp"
+              src="img/image-selectionleamo-mobile.webp"
               alt="image-section-leamo"
             />
           </div>
@@ -154,17 +154,14 @@
         <div class="col-6">
           <div class="row">
             <div class="col-6" id="image-engagement-laptop">
-              <img
-                src="/src/scss/images/image-engagement-laptop.webp"
-                alt="bottle-leamo"
-              />
+              <img src="img/image-engagement-laptop.webp" alt="bottle-leamo" />
             </div>
           </div>
         </div>
         <div class="col-6">
           <div class="row">
             <div class="col-11" id="engagement-titre-laptop">
-              <h1>Notre engagement</h1>
+              <h1 id="engagement">Notre engagement</h1>
             </div>
             <div class="col-11" id="texte-engagement-laptop">
               <p>
@@ -188,10 +185,10 @@
     <div class="engagement-section-mobile">
       <div class="row" id="engagement-section">
         <div class="col-12 col-lg-7">
-          <img src="/src/scss/images/image bottle.webp" alt="image-bottle" />
+          <img src="img/image bottle.webp" alt="image-bottle" />
         </div>
         <div class="col-10 offset-1 col-lg-4" id="engagement-titre">
-          <h1>Notre engagement</h1>
+          <h1 id="engagement">Notre engagement</h1>
         </div>
         <div class="col-10 offset-1 col-lg-3 offset-lg-9" id="texte-engagement">
           <p>
@@ -215,12 +212,12 @@
         <div class="row">
           <div class="col-12 col-lg-5" id="image-cocktails">
             <img
-              src="/src/scss/images/image-section-cocktails.webp"
+              src="img/image-section-cocktails.webp"
               alt="image-section-cocktails"
             />
           </div>
           <div class="col-8 offset-2 col-lg-3" id="cocktails-titre">
-            <h1>Cocktails</h1>
+            <h1 id="cocktails">Cocktails</h1>
           </div>
           <div class="col-10 offset-1 col-lg-4" id="cocktails-texte">
             <p>
@@ -238,7 +235,7 @@
             </div>
           </div>
           <div class="col-12" id="banner-image">
-            <img src="/src/scss/images/banner.webp" alt="banner" />
+            <img src="img/banner.webp" alt="banner" />
           </div>
         </div>
       </div>
@@ -247,7 +244,7 @@
           <div class="col-6">
             <div class="row">
               <div class="col-6 offset-1" id="cocktails-titre-laptop">
-                <h1>Cocktails</h1>
+                <h1 id="cocktails">Cocktails</h1>
               </div>
               <div class="col-10 offset-1" id="cocktails-texte-laptop">
                 <p>
@@ -268,17 +265,11 @@
           </div>
           <div class="col-6">
             <div class="row">
-              <img
-                src="/src/scss/images/image-coktails-laptop.webp"
-                alt="cocktails-image"
-              />
+              <img src="img/image-coktails-laptop.webp" alt="cocktails-image" />
             </div>
           </div>
           <div class="col-12">
-            <img
-              src="/src/scss/images/banner-scroll-laptop.webp"
-              alt="banner image"
-            />
+            <img src="img/banner-scroll-laptop.webp" alt="banner image" />
           </div>
         </div>
       </div>
@@ -291,7 +282,7 @@
               <div class="row">
                 <div class="col-12 col-lg-7" id="image-alterfood">
                   <img
-                    src="/src/scss/images/image-section-alterfoodProduit.webp"
+                    src="img/image-section-alterfoodProduit.webp"
                     alt="image-section-alterfoodProduit"
                   />
                 </div>
@@ -299,7 +290,7 @@
                   <h2>Nos autres produits alterfood</h2>
                 </div>
                 <div class="col-12" id="tensai-titre">
-                  <h1>Tensai tea</h1>
+                  <h1 id="produit">Tensai tea</h1>
                 </div>
                 <div class="col-9 offset-1">
                   <p>
@@ -321,7 +312,7 @@
             <div class="swiper-slide" id="chilled-version-mobile">
               <div class="col-12 col-lg-7" id="image-alterfood">
                 <img
-                  src="/src/scss/images/chilled-bottle-mobile.webp"
+                  src="img/chilled-bottle-mobile.webp"
                   alt="image-section-alterfoodProduit"
                 />
               </div>
@@ -362,7 +353,7 @@
                     <div class="row">
                       <div class="col-lg-7" id="image-alterfood-laptop">
                         <img
-                          src="/src/scss/images/tensai-tea-laptop.webp"
+                          src="img/tensai-tea-laptop.webp"
                           alt="tensai-bottle"
                         />
                       </div>
@@ -374,7 +365,7 @@
                         <h2>Nos autres produits alterfood</h2>
                       </div>
                       <div class="col-11" id="tensai-titre-laptop">
-                        <h1>Tensai Tea</h1>
+                        <h1 id="produit">Tensai Tea</h1>
                       </div>
                       <div class="col-11">
                         <p>
@@ -401,7 +392,7 @@
                     <div class="row">
                       <div class="col-lg-7" id="image-alterfood-laptop">
                         <img
-                          src="/src/scss/images/chilled-bottle.webp"
+                          src="img/chilled-bottle.webp"
                           alt="tensai-bottle"
                         />
                       </div>
@@ -442,25 +433,27 @@
         </div>
       </div>
     </div>
-    <div class="footer-mobile">
+    <div class="footer-mobile" id="contact">
       <div class="row">
         <div class="col-4 offset-1 col-lg-2" id="logo-leamo">
-          <img src="/src/scss/images/Leamo-Logo.svg" alt="leamo-logo" />
+          <img src="img/Leamo-Logo.svg" alt="leamo-logo" />
         </div>
         <div class="col-4 col-lg-2" id="logo-alterfood">
-          <img
-            src="/src/scss/images/logo-alterfood-black.svg"
-            alt="alterfood-logo"
-          />
+          <img src="img/logo-alterfood-black.svg" alt="alterfood-logo" />
         </div>
         <div class="col-4 offset-5 col-lg-2" id="lien-instagram">
-          <a href=""><p>Instagram</p></a>
+          <a href="https://www.instagram.com/leamo/?hl=fr"><p>Instagram</p></a>
         </div>
         <div class="col-4 offset-5 col-lg-2">
-          <a href=""><p>point de vente</p></a>
+          <a href="https://altershop.fr/collections/leamo"
+            ><p>point de vente</p></a
+          >
         </div>
         <div class="col-6 offset-4 col-lg-2">
-          <a href=""><p>4 rue de Sèze 75009 Paris</p></a>
+          <a
+            href="https://www.google.com/maps/place/4+Rue+de+S%C3%A8ze,+75009+Paris,+France/data=!4m2!3m1!1s0x47e66e33c02b3afb:0x3ea4e71c459db4ef?sa=X&ved=2ahUKEwjExcqQ3_v-AhV-iv0HHfCSDkMQ8gF6BAgLEAI"
+            ><p>4 rue de Sèze 75009 Paris</p></a
+          >
         </div>
         <div class="col-12" id="mention-footer">
           <div class="row">
@@ -477,26 +470,24 @@
     <div class="footer-laptop">
       <div class="row">
         <div class="col-4 offset-1 col-lg-2" id="logo-leamo-laptop">
-          <img src="/src/scss/images/Leamo-Logo.svg" alt="leamo-logo" />
+          <img src="img/Leamo-Logo.svg" alt="leamo-logo" />
         </div>
-        <div class="col-4 col-lg-3" id="logo-alterfood">
-          <img
-            src="/src/scss/images/logo-alterfood-black.svg"
-            alt="alterfood-logo"
-          />
+        <div class="col-4 col-lg-2" id="logo-alterfood">
+          <img src="img/logo-alterfood-black.svg" alt="alterfood-logo" />
         </div>
-        <div class="col-4 offset-5 col-lg-2" id="lien-instagram">
-          <a href="https://www.instagram.com/leamo/?hl=fr"><p>Instagram</p></a>
-        </div>
-        <div class="col-4 offset-5 col-lg-2 offset-lg-1">
-          <a href="https://altershop.fr/collections/leamo"
-            ><p>point de vente</p></a
-          >
-        </div>
-        <div class="col-6 offset-4 col-lg-2 offset-lg-12">
+        <div class="col-lg-2 offset-lg-6" id="lien-rue">
           <a
             href="https://www.google.com/maps/place/4+Rue+de+S%C3%A8ze,+75009+Paris,+France/data=!4m2!3m1!1s0x47e66e33c02b3afb:0x3ea4e71c459db4ef?sa=X&ved=2ahUKEwjExcqQ3_v-AhV-iv0HHfCSDkMQ8gF6BAgLEAI"
-            ><p>4 rue de Sèze 75009 Paris</p></a
+            ><p>
+              4 rue de Sèze <br />
+              75009 Paris
+            </p></a
+          >
+        </div>
+        <div class="col-lg-2" id="lien-instagram">
+          <a href="https://www.instagram.com/leamo/?hl=fr"><p>Instagram</p></a>
+          <a href="https://altershop.fr/collections/leamo"
+            ><p>point de vente</p></a
           >
         </div>
         <div class="col-12" id="mention-footer">
@@ -504,7 +495,7 @@
             <div class="col-6 offset-1 col-lg-3 offset-lg-1">
               <p>® 2023 LEAMO is a brand from altershop</p>
             </div>
-            <div class="col-4 offset-1 col-lg-2" id="mention-legal">
+            <div class="col-lg-2 offset-6" id="mention-legal">
               <p>mentions légales</p>
             </div>
           </div>
