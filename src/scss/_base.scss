@@ -45,8 +45,30 @@ video {
 // ==================================== */
 body {
   background-color: #fefbf7;
-  font-family: "Graphik";
+  font-family: "Graphik-Regular";
   color: #131313;
+}
+
+@font-face {
+  font-family: "Graphik-Regular";
+  src: url("/src/fonts/Graphik-Regular.woff") format("woff"),
+    url("/src/fonts/Graphik-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Graphik-Light";
+  src: url("/src/fonts/Graphik-Light.woff") format("woff"),
+    url("/src/fonts/Graphik-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Graphik-Bold";
+  src: url("/src/fonts/Graphik-Bold.woff") format("woff"),
+    url("/src/fonts/Graphik-Bold.woff2") format("woff2");
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 img {
@@ -72,4 +94,7 @@ p {
   border-radius: 20%;
   text-align: center;
   font-size: 16px;
+  a {
+    font-family: "Graphik-Bold";
+  }
 }
